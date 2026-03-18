@@ -918,7 +918,9 @@ function init() {
     state.guesses    = stored.guesses;
     state.finished   = stored.finished;
     state.won        = stored.won;
-    state.hintsShown = stored.hintsShown ?? stored.guesses.length; // backwards compat
+    // hintsShown was added later; for older stored results, estimate from wrong guesses.
+    // This relies on the invariant that one hint is revealed per wrong guess.
+    state.hintsShown = stored.hintsShown ?? stored.guesses.filter(g => !g.correct).length;
 
     renderAttemptPips();
     renderHints();

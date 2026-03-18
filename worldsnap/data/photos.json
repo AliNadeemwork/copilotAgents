@@ -1,0 +1,197 @@
+[
+  {
+    "id": 1,
+    "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=900&q=80",
+    "country": "Japan",
+    "isoCode": "JP",
+    "continent": "Asia",
+    "climate": "temperate",
+    "hints": [
+      "This country is in Asia",
+      "It has a temperate climate with four distinct seasons",
+      "This island nation is known for bullet trains and cherry blossoms"
+    ]
+  },
+  {
+    "id": 2,
+    "imageUrl": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=900&q=80",
+    "country": "Brazil",
+    "isoCode": "BR",
+    "continent": "South America",
+    "climate": "tropical",
+    "hints": [
+      "This country is in South America",
+      "It has a tropical climate and contains the world's largest rainforest",
+      "This is the largest country on its continent by both area and population"
+    ]
+  },
+  {
+    "id": 3,
+    "imageUrl": "https://images.unsplash.com/photo-1568515387631-8b650bbcdb90?w=900&q=80",
+    "country": "France",
+    "isoCode": "FR",
+    "continent": "Europe",
+    "climate": "temperate",
+    "hints": [
+      "This country is in Western Europe",
+      "It has a temperate climate and is one of the world's top wine producers",
+      "This country shares borders with 8 other nations including Spain and Germany"
+    ]
+  },
+  {
+    "id": 4,
+    "imageUrl": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=900&q=80",
+    "country": "India",
+    "isoCode": "IN",
+    "continent": "Asia",
+    "climate": "tropical",
+    "hints": [
+      "This country is in South Asia",
+      "It has a diverse climate ranging from tropical coasts to Himalayan peaks",
+      "This country is home to over 1.4 billion people and 22 official languages"
+    ]
+  },
+  {
+    "id": 5,
+    "imageUrl": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=900&q=80",
+    "country": "Australia",
+    "isoCode": "AU",
+    "continent": "Oceania",
+    "climate": "arid",
+    "hints": [
+      "This country is both a nation and a continent",
+      "It is located entirely in the Southern Hemisphere and surrounded by ocean",
+      "More than 80% of its wildlife is found nowhere else on Earth"
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "https://images.unsplash.com/photo-1503220317375-aaad61436b1b?w=900&q=80",
+    "country": "Egypt",
+    "isoCode": "EG",
+    "continent": "Africa",
+    "climate": "arid",
+    "hints": [
+      "This country is in North Africa",
+      "It has an arid desert climate and is crossed by the world's longest river",
+      "This country bridges two continents and was home to one of history's greatest ancient civilizations"
+    ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "https://images.unsplash.com/photo-1526495124232-a04e1849168c?w=900&q=80",
+    "country": "Mexico",
+    "isoCode": "MX",
+    "continent": "North America",
+    "climate": "varied",
+    "hints": [
+      "This country is in North America",
+      "It has a varied climate with tropical coasts and elevated central plateaus",
+      "This country borders the United States to the north and has the world's largest Spanish-speaking population"
+    ]
+  },
+  {
+    "id": 8,
+    "imageUrl": "https://images.unsplash.com/photo-1508193638397-1c4234db14d8?w=900&q=80",
+    "country": "Norway",
+    "isoCode": "NO",
+    "continent": "Europe",
+    "climate": "subarctic",
+    "hints": [
+      "This country is in Northern Europe",
+      "It has a subarctic climate and is famous for its dramatic glacial fjords",
+      "This country consistently ranks among the world's happiest and most prosperous nations"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=900&q=80",
+    "country": "Italy",
+    "isoCode": "IT",
+    "continent": "Europe",
+    "climate": "mediterranean",
+    "hints": [
+      "This country is in Southern Europe",
+      "It has a Mediterranean climate and is shaped like a boot",
+      "This country contains two independent microstates within its borders and has over 50 UNESCO World Heritage Sites"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=900&q=80",
+    "country": "United Kingdom",
+    "isoCode": "GB",
+    "continent": "Europe",
+    "climate": "oceanic",
+    "hints": [
+      "This country is in Western Europe",
+      "It has a mild oceanic climate and is made up of multiple islands",
+      "This country comprises four nations: England, Scotland, Wales, and Northern Ireland"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=900&q=80",
+    "country": "Kenya",
+    "isoCode": "KE",
+    "continent": "Africa",
+    "climate": "tropical",
+    "hints": [
+      "This country is in East Africa",
+      "It straddles the equator and has world-famous wildlife reserves",
+      "This country is home to the Maasai Mara and is a global leader in long-distance running"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "https://images.unsplash.com/photo-1526392060635-9d6019884377?w=900&q=80",
+    "country": "Peru",
+    "isoCode": "PE",
+    "continent": "South America",
+    "climate": "varied",
+    "hints": [
+      "This country is in South America",
+      "It has extremely varied climates from Pacific desert coast to Amazon rainforest",
+      "This country is home to the Andes mountain range and the ancient Inca civilization"
+    ]
+  },
+  {
+    "id": 13,
+    "imageUrl": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=900&q=80",
+    "country": "Thailand",
+    "isoCode": "TH",
+    "continent": "Asia",
+    "climate": "tropical",
+    "hints": [
+      "This country is in Southeast Asia",
+      "It has a tropical monsoon climate and is famous for ornate Buddhist temples",
+      "This country was never colonized by a European power; its name means 'Land of the Free'"
+    ]
+  },
+  {
+    "id": 14,
+    "imageUrl": "https://images.unsplash.com/photo-1489749798305-4fea3ae63d43?w=900&q=80",
+    "country": "Morocco",
+    "isoCode": "MA",
+    "continent": "Africa",
+    "climate": "arid",
+    "hints": [
+      "This country is in North Africa",
+      "It borders both the Atlantic Ocean and the Mediterranean Sea",
+      "This country is the closest African nation to Europe, separated by just 14 km of water"
+    ]
+  },
+  {
+    "id": 15,
+    "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=900&q=80",
+    "country": "Canada",
+    "isoCode": "CA",
+    "continent": "North America",
+    "climate": "subarctic",
+    "hints": [
+      "This country is in North America",
+      "It has a subarctic climate and is the second-largest country in the world by area",
+      "This country has the world's longest coastline and two official languages"
+    ]
+  }
+]
