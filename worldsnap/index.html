@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WorldSnap 🌍</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <div class="logo">World<span>Snap</span> 🌍</div>
+  <div class="streak-badge">🔥 Streak <strong id="streak-count">0</strong></div>
+</header>
+
+<main>
+  <!-- Loading state -->
+  <div id="loading-screen">
+    <div class="spinner"></div>
+    <p>Loading today's photo…</p>
+  </div>
+
+  <!-- Error state -->
+  <div id="error-screen" hidden>
+    <div class="error-box">
+      <span class="error-icon">⚠️</span>
+      <h2>Couldn't load today's photo</h2>
+      <p id="error-message">Please check your connection and try again.</p>
+      <button id="btn-retry" class="btn-primary">↺ Try Again</button>
+    </div>
+  </div>
+
+  <!-- Main game content (revealed after photos load) -->
+  <div id="main-content" hidden>
+
+    <!-- Photo -->
+    <div class="photo-wrap" id="photo-wrap">
+      <img id="daily-photo" src="" alt="Where in the world?" class="blurred" />
+      <div class="photo-label" id="photo-label">📍 Where in the world?</div>
+    </div>
+
+    <!-- Attempt pips -->
+    <div class="attempts-row" id="attempts-row">
+      <div class="attempt-pip" id="pip-0"></div>
+      <div class="attempt-pip" id="pip-1"></div>
+      <div class="attempt-pip" id="pip-2"></div>
+    </div>
+
+    <!-- Progressive hints -->
+    <div class="hints-list" id="hints-list"></div>
+
+    <!-- Already-played banner (shown if today's game is already complete) -->
+    <div id="played-banner" hidden>
+      <div class="played-card">
+        <strong>You've already played today!</strong><br />
+        Come back tomorrow for a new photo 🗓️
+        <div id="next-reset" class="next-reset"></div>
+      </div>
+    </div>
+
+    <!-- Guess input (hidden once game ends) -->
+    <div id="input-area">
+      <div class="input-group" id="input-group">
+        <input
+          type="text"
+          id="country-input"
+          autocomplete="off"
+          spellcheck="false"
+          placeholder="Type a country name…"
+          aria-label="Country guess"
+          aria-autocomplete="list"
+          aria-controls="dropdown"
+        />
+        <div class="dropdown" id="dropdown" role="listbox"></div>
+      </div>
+      <button class="btn-primary" id="btn-guess">Guess 🌐</button>
+    </div>
+
+    <!-- Result card (shown after game ends) -->
+    <div id="result-section" hidden>
+      <div class="result-outcome" id="result-outcome"></div>
+      <div class="result-country"  id="result-country"></div>
+      <div class="emoji-card"      id="emoji-card"></div>
+      <button class="btn-copy" id="btn-copy-result">Copy Result 📋</button>
+      <div class="copy-confirm"    id="copy-result-confirm"></div>
+    </div>
+
+  </div><!-- /#main-content -->
+</main>
+
+<!-- Share with Friends — revealed once game data loads -->
+<section id="share-section" hidden>
+  <h3 class="share-heading">Share with Friends</h3>
+  <div class="share-buttons">
+    <button id="btn-copy-link" class="btn-share">🔗 Copy Link</button>
+    <a
+      id="btn-whatsapp"
+      class="btn-share btn-whatsapp"
+      href="#"
+      target="_blank"
+      rel="noopener noreferrer"
+    >💬 WhatsApp</a>
+  </div>
+  <div class="copy-confirm" id="copy-link-confirm"></div>
+  <p class="bookmark-tip">📌 Bookmark this page and play every day!</p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
